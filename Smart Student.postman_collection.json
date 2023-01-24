@@ -1,0 +1,365 @@
+{
+	"info": {
+		"_postman_id": "d713b4b8-3ffc-4038-8188-9fc548ea4f60",
+		"name": "Smart Student",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "University",
+			"item": [
+				{
+					"name": "Get all universities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get university by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add university",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"regija\": \"primorska\",\r\n    \"naslov\": \"Koper 22\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete university",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit university",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"regija\": \"primorska\",\r\n        \"naslov\": \"Koper 22\",\r\n        \"posta\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Student",
+			"item": [
+				{
+					"name": "Get all students",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get student by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add student",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"regija\": \"primorska\",\r\n    \"naslov\": \"Koper 22\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete student",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit student",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"regija\": \"primorska\",\r\n        \"naslov\": \"Koper 22\",\r\n        \"posta\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "List of applications",
+			"item": [
+				{
+					"name": "Get all applications",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get application by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add application",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"regija\": \"primorska\",\r\n    \"naslov\": \"Koper 22\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete application",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8180/api/v1/lokacije/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8180",
+							"path": [
+								"api",
+								"v1",
+								"lokacije",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Shutdown",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
