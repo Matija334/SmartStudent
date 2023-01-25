@@ -3,6 +3,7 @@ package com.example.smartstudent.rest;
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.example.smartstudent.dao.UniversityRepository;
+import com.example.smartstudent.models.Student;
 import com.example.smartstudent.models.University;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-@SpringBootTest
+@SpringBootTest(classes = University.class)
 @ActiveProfiles("test")
 public class UniversityControllerTest {
     @Autowired
