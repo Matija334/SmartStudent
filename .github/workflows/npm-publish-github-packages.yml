@@ -19,6 +19,7 @@ jobs:
       with:
         node-version: 16
         cache: 'npm'
+        cache-dependency-path: smartstudent-frontend/package-lock.json
     - run: npm ci
       working-directory: smartstudent-frontend
     - run: npm run build --if-present
