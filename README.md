@@ -7,7 +7,7 @@ I have built simple application, made in Java Springboot as backend and JavaScri
 Mysql database consists of Student, University and List of applications.
 If student has greater final grade than university's threshold, he is eligible to enroll.
 
-Next we created unit tests in Java where we tested basic functionalities (CRUD) and got familiar with Github Actions (CI) and Katalon basics.
+Next I created unit tests in Java where I tested basic functionalities (CRUD) and got familiar with Github Actions (CI) and Katalon basics.
 
 ## Challenges
 - I encountered error while trying to build docker image.  
