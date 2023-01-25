@@ -19,7 +19,7 @@ export default function StudentID() {
       setEmail(result.data.email);
       setFinalGrade(result.data.final_grade);
     });
-  }, ['IdStudent']);
+  }, [IdStudent]);
 
   const editStudent = () => {
     api

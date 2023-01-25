@@ -19,7 +19,7 @@ export default function UniversityID() {
       setYear(result.data.year);
       setPassing_grade(result.data.passing_grade);
     });
-  }, ['IdUniversity']);
+  }, [IdUniversity]);
 
   const editUniversity = () => {
     api
