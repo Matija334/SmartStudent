@@ -7,6 +7,17 @@ import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 public class ListOfApplications {
+
+    public ListOfApplications(){}
+
+    public ListOfApplications(Student student, University university){
+        setStudent(student);
+        setUniversity(university);
+        if(student.getFinal_grade() >= university.getPassing_grade()){
+            pass = true;
+        }
+        setPass(pass);
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;

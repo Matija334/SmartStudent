@@ -6,6 +6,15 @@ import java.util.Set;
 
 @Entity
 public class University {
+
+    public University(){}
+
+    public University(String title, String course, int year, float passing_grade){
+        setTitle(title);
+        setCourse(course);
+        setYear(year);
+        setPassing_grade(passing_grade);
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

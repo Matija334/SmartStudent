@@ -20,6 +20,14 @@ public class Student {
 
     private float final_grade;
 
+    public Student(){}
+    public Student(String name, String last_name, String email, float final_grade ) {
+        setName(name);
+        setLast_name(last_name);
+        setEmail(email);
+        setFinal_grade(final_grade);
+    }
+
     public Long getId() {
         return id;
     }
