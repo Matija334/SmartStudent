@@ -9,7 +9,7 @@ import { Button } from "@mui/material";
 import { Delete } from "@mui/icons-material";
 import api from "../../services/api";
 import { useNavigate } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 
 const removeUniversity = (id) => {
   console.log(id);
